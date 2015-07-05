@@ -310,7 +310,7 @@
       var file = fileInput.files[0];
       var textType = /text.*/;
 
-      if (true) {
+
         var reader = new FileReader();
 
         reader.onload = function(e) {
@@ -324,9 +324,7 @@
         }
 
         reader.readAsText(file);
-      } else {
-        fileDisplayArea.innerText = "File not supported!"
-      }
+
     });
   }
 
