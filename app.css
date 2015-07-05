@@ -1,0 +1,32 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 1em;
+}
+
+#page-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+pre {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  margin-top: 2em;
+  width: 50%;
+  display: inline-block;
+  overflow-x: auto;
+  float: left;
+}
+#commentDisplayArea {
+  color: #AAA;
+}
