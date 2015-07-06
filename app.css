@@ -11,6 +11,40 @@ html {
   overflow: hidden;
 }
 
+table {
+  border: none;
+  border-collapse: collapse;
+}
+tr:hover {
+  background: #F1C410;
+}
+tr:hover td.comment {
+  color: #FFF;
+}
+td {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+th {
+  font-weight: normal;
+  text-align: right;
+  color: #AAA;
+  font-size: 0.8em;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+td.code {
+  width: 500px;
+}
+
+tr.hidden {
+  display: none;
+}
+
+td.comment {
+  color: #AAA;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,7 +54,6 @@ h1 {
 }
 
 pre {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
   margin-top: 2em;
   width: 50%;
   display: inline-block;
