@@ -1,4 +1,4 @@
-{
+var gcodes = {
   "T0": "Select first extuder",
   "T1": "Select second extuder",
 "G0": "Move",
